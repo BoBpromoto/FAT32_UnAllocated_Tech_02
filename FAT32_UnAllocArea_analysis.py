@@ -6,7 +6,6 @@ import sys
 import os
 import win32api
 from struct import *
-import math
 
 def Drive_exist_check(drive_name) :
 	try:
