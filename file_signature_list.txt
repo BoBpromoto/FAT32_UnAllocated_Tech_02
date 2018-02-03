@@ -65,8 +65,7 @@
  - 48 57 50 20 44 6F 63 75 6D 65 6E 74 20 46 69 6C 65
 
 
-추가 고려
-
+To Consider
  -  50 4B 03 04 : zip, docx, pptx, xlsx, jar
 	50 4B 4C 49 54 45 : .zip (PKLITE ZIP Archive)
 	50 4B 03 04 14 00 08 00 : .jar (Java Archive)
