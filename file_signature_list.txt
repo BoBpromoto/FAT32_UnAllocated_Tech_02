@@ -1,0 +1,76 @@
+2
+ - 42 4D : .bmp (Windows Bitmap Image)*
+ - 4D 5A : Executable file *
+
+3
+ - 42 5A 68 : .bz or .bz2 (Bzip Archive)
+ - 4D 5A 90 : Microsoft Executable *
+ - 1F 8B 08 : .gz (GZ Compressed File)
+ - 49 49 2A : .tif or .tiff (Little Endian)
+ - 4D 4D 2A : .tif or .tiff (Big Endian)
+
+4
+ - 41 56 49 20	: avi
+ - 52 49 46 46 : .avi
+ - 33 67 70 35 : .mp4 (MPEG-4 Video File)
+ - FF D8 FF E1 : .jpg (JPG Graphical File)
+ - 49 44 33 03 : .mp3 (MP3 Audio)
+ - 00 00 01 B3 : .mpg or mpeg (MPEG Movie)
+ - 6D 6F 6F 76 : .mov (QuickTime Movie)
+ - 6D 64 61 74 : .mov (QuickTime Movie)
+ - 0F 00 E8 03 : .ppt (PowerPoint Presentation)
+ - 49 49 00 2A : .tif or .tiff (Little Endian)
+ - 4D 4D 00 2A : .tif or .tiff (Big Endian)
+ - 41 4C 5A 01 : .alz (ESTsoft Alzip Archive)
+
+5
+ - FF D8 FF FE 00 : .jpeg (JPG Graphical File)
+
+
+6
+ - 47 49 46 38 37 61 : .gif (Graphics Interchange Format)
+ - 47 49 46 38 39 61 : .gif (Graphics Interchange Format)
+
+
+
+
+8
+ - 4D 5A 90 00 03 00 00 00 : .acm (Excutable) *
+ - 52 49 46 46 6A 42 01 00 : .avi (Audio Video Interleave File)
+ - 5B 33 2F 31 32 2F 32 30 : .bak (backup)
+ - 52 45 4D 20 44 75 6D 6D : .bat (batch file)
+ - FF 53 43 43 FF 4D 41 50 : .bin (Binary file)
+ - 3C 3F 78 6D 6C 20 76 65 : .config (xml config file)
+ - 4D 5A 90 00 03 00 00 00 : .dll (Dynamic Link Library) *
+
+ - D0 CF 11 E0 A1 B1 1A E1 : .db (Windows Thumbnail Cache)
+ - D0 CF 11 E0 A1 B1 1A E1 : .doc (MS Word 2003)
+ - D0 CF 11 E0 A1 B1 1A E1 : .hwp
+ - D0 CF 11 E0 A1 B1 1A E1 : .xls (Microsoft Excel Sheet)
+
+ - 4C 01 02 00 3E 0D 1C 46 : .exp (export file)
+ - 3C 21 44 4F 43 54 59 50 : .htm (HyperText Markup)
+
+ - 3C 3F 78 6D 6C 20 76 65 : .msc (Microsoft Magement Console Snap-in control file)
+ - 25 50 44 46 2D 31 2E 33 : .pdf (Adobe Portable Document File)
+ - 25 50 44 46 2D 31 2E 34 : .pdf (Adobe Portable Document File)
+ - 09 04 06 00 00 00 10 00 : .xml (MS Excel)
+ - 89 50 4E 47 0D 0A 1A 0A : .png (Portable Network Graphic)
+ - 11 00 00 00 53 43 43 41 : .pf (Windows Prefetch File)
+ 	57 69 6E 5A 69 70
+ - 00 00 00 18 66 74 79 70 : ,mp4 
+ - 00 00 00 1C 66 74 79 70 : ,mp4
+
+17 
+ - 48 57 50 20 44 6F 63 75 6D 65 6E 74 20 46 69 6C 65
+
+
+추가 고려
+
+ -  50 4B 03 04 : zip, docx, pptx, xlsx, jar
+	50 4B 4C 49 54 45 : .zip (PKLITE ZIP Archive)
+	50 4B 03 04 14 00 08 00 : .jar (Java Archive)
+
+	50 4B 03 04 14 00 06 00 : docx, pptx, xlsx
+
+
