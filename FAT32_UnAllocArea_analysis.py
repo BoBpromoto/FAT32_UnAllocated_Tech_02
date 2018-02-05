@@ -139,15 +139,7 @@ def findUnAllocate() :
 			buf += 1
 		else :
 			buf += 1
-'''			file_cluster = (go_RootDir() / 512 / 8)
-			if file_cluster == int(file_cluster) :
-				buf = buf + file_cluster
-			else :
-				buf = buf + int(file_cluster) + 1 
-			print ("rounding : %d" %buf)
-		else :
-			buf = buf + 1'''
-
+			
 def UnAlloc_print() :
 	return ("\t\t[-] Cluster %d - " % (buf+2))
 
